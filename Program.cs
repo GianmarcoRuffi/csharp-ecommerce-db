@@ -5,8 +5,8 @@ using (EcommerceContext db = new EcommerceContext())
 
 {
     Products Product1 = new Products() { Name = "Arco da Caccia", Description = "Arco da caccia, utile per caccia e combattimenti a corto e medio raggio.", Price = 50 };
-    Products Product2 = new Products() { Name = "Lancia in pietra", Description = "Insegui i tuoi nemici con questo potente fucile d'assalto leggero.", Price = 50 };
-    Products Product3 = new Products() { Name = "LR-300", Description = "Ordigno esplosivo inaffidabile.", Price = 50 };
+    Products Product2 = new Products() { Name = "LR-300", Description = "Insegui i tuoi nemici con questo potente fucile d'assalto leggero.", Price = 50 };
+    Products Product3 = new Products() { Name = "Granata barattolo", Description = "Ordigno esplosivo inaffidabile.", Price = 50 };
     Products Product4 = new Products() { Name = "Fucile a doppia canna", Description = "Un fucile a due canne che consente di sparare due colpi in rapida successione prima di dover ricaricare.", Price = 50 };
     Products Product5 = new Products() { Name = "Silenziatore", Description = "Riduce significativamente il suono dello sparo.", Price = 50 };
     Products Product6 = new Products() { Name = "Fucile M39", Description = "Fucile militare semi-automatico", Price = 50 };
